@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+  <img class="logoimage" src="images/logo.svg" alt="logo"></img>
+
+  <main class="mainwrapper">
+   
+    <section class="sectionone">
+      <div class="bill">
+        <p>Bill</p>
+        <input id="bill" class="input"></input>
+      </div>
+
+      <p>Select Tip %</p>
+      
+
+        <div class="percentbutton margin">
+          <button id="five">5%</button>
+          <button id="ten">10%</button>
+          <button id="fifteen">15%</button>
+        </div>
+
+        <div class="percentbutton">
+          <button id="twentyfive">25%</button>
+          <button id="fifty">50%</button>
+          <input id="custombutton" placeholder="Custom"></input>
+        </div>
+      
+
+      <div class="numberofppl">
+        <div class="flexitem">
+        <p>Number of People</p>
+          <p id="cantbezero" style="color:red"></p>
+      </div>
+        <input id="numofpeople" class="input"></input>
+      </div>
+
+    </section>
+
+    <section class="sectiontwo">
+      <div class="displayresult">
+        <div>
+          <p>Tip Amount</p>
+          <p class="person">/ person</p>
+        </div>
+        <div id="tipamount" class="figure">$0.00</div>
+      </div>
+
+      <div class="displayresult">
+          <div>
+            <p>Total</p>
+            <p class="person">/ person</p>
+          </div>
+        <div id="total" class="figure">$0.00</div>
+      </div>
+      <button id="reset" class="resetbutton">RESET</button>
+    </section>
+  </main>
+</body>
+<script src="script.js"></script>
+</html>
