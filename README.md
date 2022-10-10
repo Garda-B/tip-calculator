@@ -26,4 +26,4 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://garda-b.github.io/tip-calculator/)
+- Live Site URL: https://garda-b.github.io/tip-calculator/
